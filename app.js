@@ -33,3 +33,38 @@ let Celcius = 10;
 let Farenheit =(Celcius * 1.8 + 32);
 
 console.log(Farenheit)
+
+///////////////
+
+let bool = '1' == 1;
+console.log(bool)
+
+///CONDITIONALS///
+
+let subscribed = true
+let loggedIn = true
+
+if (subscribed === true) {
+    console.log("show the video")
+}
+else if (loggeIn === true) {
+    console.log("tell user to upgrade their subscription")
+}
+else {
+    console.log("tell user to log into account")
+}
+
+///Store Scenario - CONDITIONALS///
+
+let cash = 30
+let price = 40
+
+if (cash > price) {
+    console.log("you paid more than you should have - heres your change")
+}
+else if (cash === price) {
+    console.log("you payed the exact amount! Have a good day")
+}
+else {
+    console.log("you dont have enough, sorry!")
+}
