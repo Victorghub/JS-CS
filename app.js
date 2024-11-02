@@ -57,14 +57,15 @@ else {
 ///Store Scenario - CONDITIONALS///
 
 let cash = 30
-let price = 40
+let price = 200
 
 if (cash > price) {
-    console.log("you paid more than you should have - heres your change")
+    console.log(`you paid more than you should have - heres ${cash - price} your change`)
 }
 else if (cash === price) {
     console.log("you payed the exact amount! Have a good day")
 }
 else {
-    console.log("you dont have enough, sorry!")
+    console.log(`you dont have enough, you need an extra ${price - cash} sorry!`)
 }
+
