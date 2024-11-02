@@ -30,7 +30,7 @@ console.log(temperature)
  */
 
 let Celcius = 10;
-let Farenheit =(Celcius * 1.8 + 32);
+let Farenheit = Celcius * 1.8 + 32;
 
 console.log(Farenheit)
 
@@ -56,16 +56,26 @@ else {
 
 ///Store Scenario - CONDITIONALS///
 
-let cash = 30
+let cash = 220
 let price = 200
+let difference = cash - price
 
 if (cash > price) {
-    console.log(`you paid more than you should have - heres ${cash - price} your change`)
+    console.log(`you paid more than you should have - heres ${difference} your change`)
 }
 else if (cash === price) {
     console.log("you payed the exact amount! Have a good day")
 }
 else {
-    console.log(`you dont have enough, you need an extra ${price - cash} sorry!`)
+    console.log(`you dont have enough, you need an extra ${difference * -1} sorry!`)
 }
 
+///LOGIC OPERATORS///
+
+let cash1 = 50
+let price1 = 40
+let isStoreOpen = true
+
+if (cash1 >= price1 && isStoreOpen === true) {
+    console.log("print receipt")
+}
