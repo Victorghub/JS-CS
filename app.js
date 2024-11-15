@@ -116,3 +116,11 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
 // This way above its cleaner in the sense that you are only console login the str where the cash, price and store is at 
 
 /// Loops ///
+
+
+let count = 1; 
+
+while (count <= 100) {
+    console.log(count)
+        count = count + 1;
+}
