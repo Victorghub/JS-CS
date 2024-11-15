@@ -86,3 +86,31 @@ if (cash1 >= price1 && isStoreOpen === true) {
 /// For the IF statement to run it needs to be a TRUTHY VALUE. ///
 /// For the ELSE statement to run it needs to be a FALSY VALUE. ///
 /// You can use !! then following a value to see if it is truthy or falsy. ///
+
+/// Ternary Operators ///
+
+let hot = true
+hot ? console.log('weather is hot outside') : console.log('it is cold')
+
+let Subscribed = true
+let LoggedIn = true
+
+let Str = Subscribed && LoggedIn ? 'show the video' : 'hide the video'
+console.log(Str);
+
+/// Problem Attempt with Tenary Operators ///
+
+let Cash = 50
+let Price = 40
+let IsStoreOpen = true
+
+// 'give receipt' : 'do not give receipt' //
+
+IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not give receipt')
+
+// or to make it cleaner you could do this//
+// 
+// let str = IsStoreOpen && Cash>=Price ? "give receipt" : "do not give receipt"
+// console.log("str")
+
+// This way above its cleaner in the sense that you are only console login the str where the cash, price and store is at 
