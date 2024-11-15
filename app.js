@@ -115,12 +115,44 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
 
 // This way above its cleaner in the sense that you are only console login the str where the cash, price and store is at 
 
-/// Loops ///
+/// Loops - for loop is the most common///
+
+///let count = 1; 
+
+//while (count <= 100) {
+   // console.log(count)
+   //     count = count + 1;
+//}
+
+///for (let i = 0; i < 100; i++) {
+ ///   console.log(i + 1);
 
 
-let count = 1; 
+ /* Write a for loop that loops through 1 to 20.
+ *  If the number is divisible by 3, print 'frontend'
+ *  If the number is divisible by 5, print 'simplified'
+ *  If the number is divisible by 3 and 5, print 'Front End Simplified'
+ *  If the number is *not* divisible by either 3 or 5 print the number
+ * 
+ *  @example
+ *  1 -> 1
+ *  2 -> 2
+ *  3 -> 'FrontEnd'
+ *  4 -> 4
+ *  5 -> 'Simplified'
+ *  ...
+ *  15 -> 'FrontEnd Simplified'
+ *  ...
+ *  20 -> 'Simplified'
+ */
 
-while (count <= 100) {
-    console.log(count)
-        count = count + 1;
+
+ for (let i = 1; i <= 15; i++) {
+    console.log(i);
 }
+
+    if (let i =  i % 3; i++) {
+        console.log('FrontEnd');
+}
+
+
