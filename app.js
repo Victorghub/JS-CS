@@ -79,3 +79,10 @@ let isStoreOpen = true
 if (cash1 >= price1 && isStoreOpen === true) {
     console.log("print receipt")
 }
+
+
+///Truthy and Falsy Values///
+
+/// For the IF statement to run it needs to be a TRUTHY VALUE. ///
+/// For the ELSE statement to run it needs to be a FALSY VALUE. ///
+/// You can use !! then following a value to see if it is truthy or falsy. ///
