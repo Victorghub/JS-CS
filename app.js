@@ -152,7 +152,7 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
 }
 
     if (let i =  i % 3; i++) {
-        console.log('FrontEnd');
+        console.log('FrontEnd') 
 }
 
 
