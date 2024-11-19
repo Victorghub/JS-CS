@@ -147,12 +147,11 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
  */
 
 
- for (let i = 1; i <= 15; i++) {
+ for (let i = 1; i <= 20; ++i) {
     console.log(i);
-}
-
-    if (let i =  i % 3; i++) {
-        console.log('FrontEd') 
+    if (i % 3 === 0) {
+        console.log(FrontEnd)
+    }
 }
 
 
