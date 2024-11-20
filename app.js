@@ -145,13 +145,21 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
  *  ...
  *  20 -> 'Simplified'
  */
-
+//Fizbuzz Question//
 
  for (let i = 1; i <= 20; ++i) {
-    console.log(i);
-    if (i % 3 === 0) {
-        console.log(FrontEnd)
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(`${i} ->FrontEnd Simplified`);
     }
-}
+    else if (i % 3 === 0) {  /// What you are saying here is if {i} is divisible by 3 and it is equal the value and types is 0 then print front end simplified ///
+        console.log(`${i} -> FrontEnd`);
+    }
+    else if (i % 5 === 0) {
+        console.log(`${i} -> Simplified`);
+    }
+    else {
+        console.log(`${i} -> ${i}`);
+    }
+ }
 
 
