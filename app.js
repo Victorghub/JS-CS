@@ -162,4 +162,22 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
     }
  }
 
+//Dynamic For Loop // 
 
+ /**
+  * Print out every character from the string:
+  * "Front End Simplified"
+  * 
+  * F
+  * R
+  * 0
+  * -
+  * E
+  * D
+  */
+
+ const str = "Frontend Simplified" //this string has 19 characters
+
+ for (let i = 0; i < str.length; ++i) {
+    console.log(str[i])
+ }
