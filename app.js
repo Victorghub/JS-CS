@@ -181,3 +181,24 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
  for (let i = 0; i < str.length; ++i) {
     console.log(str[i])
  }
+
+ /// Functions /// 
+
+//Function Definition        //name = paremeter // this makes the function dynamic
+ function welcomePersonToFES(name) {
+    console.log(`Welcome to FES, ${name}`) //this console logs undefined = which means the value is not set yet
+ }
+
+ //Call the function // in order to pass a function a value from when you call the function is write the value in the parenteces
+ welcomePersonToFES('Victor');
+ welcomePersonToFES('John');
+ welcomePersonToFES('Miguel');
+
+ ///////How to return a value from my function/////////////////
+
+ function fn() {
+     return 'my return' //once you see a return statemet it does not execute any more lines of code which is why the next line is dimmed.
+    console.log("My function") //does not log to console due to return
+ }
+
+ fn();      //this fn value is = to 'my return'
