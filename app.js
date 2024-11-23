@@ -214,4 +214,4 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
 console.log(sumOfTwoNumber(10, 10)) //in order to make it dynamic and lets say we wanted to add 10, 10 together, 
                                     //these two arguments need to be passed into the parameters of the function definition, which means - if we are passing two values we need to accept two values.
                                     //once  you accept the parameters you can actually use them
-                                    //test
+                                    //testt
