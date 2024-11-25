@@ -206,7 +206,7 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
  // Another example but lets say we want to add two numbers together //
 
  function sumOfTwoNumber(num1, num2) {
-    return 5 + 10 //this gives us 15 because we are returning 5+10 in the function
+    //return 5 + 10 //this gives us 15 because we are returning 5+10 in the function
     num1 + num2 // undefined - needs to be returned
     return num1 + num2
  }
@@ -214,4 +214,38 @@ IsStoreOpen && Cash>=Price ? console.log('give receipt') : console.log('do not g
 console.log(sumOfTwoNumber(10, 10)) //in order to make it dynamic and lets say we wanted to add 10, 10 together, 
                                     //these two arguments need to be passed into the parameters of the function definition, which means - if we are passing two values we need to accept two values.
                                     //once  you accept the parameters you can actually use them
-                                    //t
+                                    //the first argument goes with the first parameter
+
+////Celcius to farenheit with functions////
+
+/** Create a function that converts celcius to farenheit
+ * 
+ * Celcius to F formula:
+ *  F = C x 1.8 + 32
+ *      
+ *  @example
+ *  convertcelciustofahrenheit (0) -> 32
+ *  convertcelciustofahrenheit (10) -> 50
+ *  convertcelciustofahrenheit (30) -> 86 
+ */
+
+ /* 
+ function convertCelciustToFahrenheit(celcius) {
+    return celcius * 1.8 + 32 // formula for farenheit
+}
+
+console.log(convertCelciustToFahrenheit(0))
+console.log(convertCelciustToFahrenheit(10))
+console.log(convertCelciustToFahrenheit(30))
+**/
+
+//arrow function//
+
+const convertCelciusToFahrenheit = () => {
+    return Celcius * 1.8 + 32
+}                                                 //arrow function
+
+
+console.log(convertCelciusToFahrenheit(0))
+
+//ARRAYS//
