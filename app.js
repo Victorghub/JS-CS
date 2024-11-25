@@ -249,3 +249,31 @@ const convertCelciusToFahrenheit = () => {
 console.log(convertCelciusToFahrenheit(0))
 
 //ARRAYS//
+
+let item1 = 20
+let item2 = 30
+let item3 = 40
+let item4 = 50
+let item5 = 100
+
+let arr = [20, 30, 40, 50, 100] //the numbers are all elements
+
+//first element of array
+//console.log(arr[0])
+
+//last element of array
+//console.log(arr[arr.length - 1])
+
+//arr.push(200)
+
+let newArr = arr.filter((element) => {
+    console.log(element)
+    return true;
+})    //elemnt that we are currently on in the iteration
+
+console.log(newArr)
+
+//console.log(arr);
+
+// this gives and empty array because .filter method only returns the element of the
+//current itiarion we are on if that iteration turns true
