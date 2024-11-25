@@ -290,9 +290,11 @@ console.log(convertCelciusToFahrenheit(0))
  * [FAIL] => []
  * 
 */
-let grades = ['A+', 'A', 'FAIL']
+//let grades = ['A+', 'A', 'FAIL']
 
-let goodGrades = grades.filter((element) => {
+/**
+ * 
+ *let goodGrades = grades.filter((element) => {
     console.log(element)
     if (element !== 'FAIL'){
         return true;
@@ -301,6 +303,12 @@ let goodGrades = grades.filter((element) => {
 
 console.log(goodGrades)
 
-///
+*/
+
+let grades = ['A+', 'A', 'FAIL']
+
+for (let i = 0; i < grades.length; ++i) {
+    console.log(grades[i])
+}
 
 
