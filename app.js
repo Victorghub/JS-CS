@@ -307,8 +307,12 @@ console.log(goodGrades)
 
 let grades = ['A+', 'A', 'FAIL']
 
+//create a new empty array - called good grades
 for (let i = 0; i < grades.length; ++i) {
+    // add current element onto 'goodgrades' only if current element is  not equal to FAIL
     console.log(grades[i])
 }
 
+
+//console log goodgrades
 
