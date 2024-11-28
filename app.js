@@ -305,6 +305,10 @@ console.log(goodGrades)
 
 */
 
+/**
+ * Filter out the ffail elements in an array without using the array.filter method
+ */
+
 let grades = ['A+', 'A', 'FAIL']
 
 //create a new empty array - called good grades
