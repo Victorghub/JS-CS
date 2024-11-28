@@ -315,7 +315,8 @@ let grades = ['A+', 'A', 'FAIL']
 //STEP 2: Add current element onto 'goodgrades' only if current element is  not equal to FAIL
 // if STATEMENT EXPLANATION: checking IF the current element is not equal to fail the pushing onto the empty array let goodGrades[], the current element we are on (grades[i])
 
-let goodGrades = []
+/**
+ * let goodGrades = []
 
     for (let i = 0; i < grades.length; ++i) {
     if (grades[i] !== 'FAIL') {
@@ -323,6 +324,7 @@ let goodGrades = []
     }
 }
     console.log(goodGrades);
+ * */
 
 
 //console log goodgrade
@@ -375,14 +377,19 @@ console.log(newArray)
  * [0, 10, 20] => [0, 1000, 2000]
  */
 
-let dollars = [1, 5, 10, 3]
+/**
+ * let dollars = [1, 5, 10, 3]
 
 let dollarsCents = dollars.map((element) => {
     return  element * 100
 })
+   console.log(dollarsCents)
 
 
-console.log(dollarsCents)
+ * */
+
+
+
 
 /***
  * now the same with shorter code
@@ -394,3 +401,14 @@ console.log(dollarsCents)
  * console.log(dollarScents)
  */
 
+
+/**DO THE SAME WITHOUT USING THE MAP METHOD - USE A FOR LOOP */
+
+let dollars = [1, 5, 20, 4]
+
+let dollarCents = [];
+    for (let i = 0; i < dollars.length; ++i) {
+        dollarCents.push(dollars[i] * 100)
+    }
+
+    console.log(dollarCents)
