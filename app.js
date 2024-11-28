@@ -412,3 +412,5 @@ let dollarCents = [];
     }
 
     console.log(dollarCents)
+    
+    ;
