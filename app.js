@@ -306,16 +306,23 @@ console.log(goodGrades)
 */
 
 /**
- * Filter out the ffail elements in an array without using the array.filter method
+ * Filter out the fail elements in an array without using the array.filter method
  */
 
 let grades = ['A+', 'A', 'FAIL']
 
-//create a new empty array - called good grades
-for (let i = 0; i < grades.length; ++i) {
-    // add current element onto 'goodgrades' only if current element is  not equal to FAIL
-    console.log(grades[i])
+//STEP 1: Create a new empty array - called good grades
+//STEP 2: Add current element onto 'goodgrades' only if current element is  not equal to FAIL
+// if STATEMENT EXPLANATION: checking IF the current element is not equal to fail the pushing onto the empty array let goodGrades[], the current element we are on (grades[i])
+
+let goodGrades = []
+
+    for (let i = 0; i < grades.length; ++i) {
+    if (grades[i] !== 'FAIL') {
+        goodGrades.push(grades[i]);
+    }
 }
+    console.log(goodGrades);
 
 
 //console log goodgrade
