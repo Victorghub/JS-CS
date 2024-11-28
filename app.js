@@ -358,9 +358,29 @@ console.log(newArray)
  * because the curly brackets only have one line of code {} - which is return undefined, and we are returning in that one line of code we can remove the curly brackets and the return statement
  */
 
-let arr = [1, 4, 9, 16]
-
+/**
+ * 
+ * let arr = [1, 4, 9, 16]
 let newArray = arr.map(element => 'dog')
 console.log(newArray)
+ * 
+ */
 
+
+
+/**
+ * Turn each element in an array of dollars into cents
+ * @examples
+ * [1, 5, 10, 3] => [100, 500, 1000, 300]
+ * [0, 10, 20] => [0, 1000, 2000]
+ */
+
+let dollars = [1, 5, 10, 3]
+
+let dollarsCents = dollars.map((element) => {
+    return  element * 100
+})
+
+
+console.log(dollarsCents)
 
