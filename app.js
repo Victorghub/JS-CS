@@ -327,3 +327,25 @@ let goodGrades = []
 
 //console log goodgrade
 
+//.MAP METHOD//
+
+/**
+ * .MAP METHOD ACCEPTS CALL-BACKS (() => {})
+ * the element inside the () inside the callback method can be named whatever because you are using arr.map and the array is named arr
+ * map element works by irirating over every other element looks at the return statement - and turns the element of the current itiration into whatever we return
+ * looks into first element and looks at the return and because its underfined it returns that first element into undefined.
+ * 
+ * 
+ */
+
+
+let arr = [1, 4, 9, 16]
+
+let newArray = arr.map ((element) => {
+    console.log(element)
+    return undefined;
+})
+
+console.log(newArray)
+
+
