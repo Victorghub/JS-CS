@@ -384,3 +384,13 @@ let dollarsCents = dollars.map((element) => {
 
 console.log(dollarsCents)
 
+/***
+ * now the same with shorter code
+ * 
+ * let dollars [1, 5, 20, 4]
+ * 
+ * let dollarScents = dollar.map(element => element * 100)
+ * 
+ * console.log(dollarScents)
+ */
+
