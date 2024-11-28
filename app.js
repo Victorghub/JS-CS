@@ -339,13 +339,28 @@ let goodGrades = []
  */
 
 
-let arr = [1, 4, 9, 16]
-
-let newArray = arr.map ((element) => {
+/**
+ * / let arr = [1, 4, 9, 16]
+ * 
+ * let newArray = arr.map ((element) => {
     console.log(element)
     return undefined;
 })
 
+console.log(newArray)
+ * /
+
+//turning the same from above into one line of code//
+
+/**
+ * because theres only one variable you can removed the () inside the callback
+ * removed console.log(element)
+ * because the curly brackets only have one line of code {} - which is return undefined, and we are returning in that one line of code we can remove the curly brackets and the return statement
+ */
+
+let arr = [1, 4, 9, 16]
+
+let newArray = arr.map(element => 'dog')
 console.log(newArray)
 
 
