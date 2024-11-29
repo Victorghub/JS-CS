@@ -411,6 +411,18 @@ let dollarCents = [];
         dollarCents.push(dollars[i] * 100)
     }
 
-    console.log(dollarCents)
-    
-    ;
+    console.log(dollarCents);
+
+
+    // OBJECTS //
+
+let userFirstName = 'Victor'
+let userLastName = 'Lopez'
+let userDiscordId = 'Victor Lopez #1234'
+let userSubscriptionStatus = 'VIP'
+
+let user = {
+    username: 'victor',
+    email: 'itsvictorlopez@gmmail.com',
+    subscriptionStatus: 'vip',
+}
